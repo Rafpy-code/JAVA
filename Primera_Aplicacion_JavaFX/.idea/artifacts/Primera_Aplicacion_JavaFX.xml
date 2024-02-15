@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" build-on-make="true" name="Primera_Aplicacion_JavaFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/Primera_Aplicacion_JavaFX</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="sample.Main" />
+        <option name="description" value="ProyectoA - Primera aplicación JavaFX" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/proyectoa_logotipo_corto_letra.png" />
+            <option name="macIcon" value="$PROJECT_DIR$/proyectoa_logotipo_corto_letra.icns" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/proyectoa.ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="title" value="ProyectoA - Primera aplicación JavaFX" />
+        <option name="vendor" value="ProyectoA" />
+        <option name="version" value="1.0" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Primera_Aplicacion_JavaFX.jar">
+        <element id="module-output" name="Primera_Aplicacion_JavaFX" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
